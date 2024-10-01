@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Math & English & Biology Topics</title>
+  <link rel="stylesheet" href="task.css">
+</head>
+<body>
+    <div class="all">
+        
+  <header>
+    <h1 class="text">Math & English & Biology Topics</h1>
+    <button id="themeToggle" class="button">Switch to Dark Theme</button>
+  </header>
+  
+  <section class="topics">
+    <div class="topic">
+      <h2>Math Topics</h2>
+      <ul>
+        <li><a  class="link"href="https://drive.google.com/drive/folders/1LJblFjLTkNmr_KHxmh3Ibgl--WZUopid">Functions</a></li>
+
+        <li><a  class="link"href="https://drive.google.com/drive/folders/1LJblFjLTkNmr_KHxmh3Ibgl--WZUopid">Trigonometry</a></li>
+<li><a class="link" href="https://drive.google.com/drive/folders/1LJblFjLTkNmr_KHxmh3Ibgl--WZUopid">Probability</a></li>
+<li><a class="link" href="https://drive.google.com/drive/folders/1LJblFjLTkNmr_KHxmh3Ibgl--WZUopid">Radicals</a></li>
+<li><a class="link" href="https://drive.google.com/drive/folders/1LJblFjLTkNmr_KHxmh3Ibgl--WZUopid">Logarithmic</a></li>
+<li><a class="link" href="https://drive.google.com/drive/folders/1LJblFjLTkNmr_KHxmh3Ibgl--WZUopid">Exponential Equations</a></li>
+<li><a class="link" href="https://drive.google.com/drive/folders/1LJblFjLTkNmr_KHxmh3Ibgl--WZUopid">Limits</a></li>
+<li><a class="link" href="https://drive.google.com/drive/folders/1LJblFjLTkNmr_KHxmh3Ibgl--WZUopid">Derivatives</a></li>
+<li><a class="link" href="https://drive.google.com/drive/folders/1LJblFjLTkNmr_KHxmh3Ibgl--WZUopid">Velocity</a></li>
+<li><a  class="link"href="https://drive.google.com/drive/folders/1LJblFjLTkNmr_KHxmh3Ibgl--WZUopid">Space Geometry</a></li>
+<li><a class="link" href="https://drive.google.com/drive/folders/1LJblFjLTkNmr_KHxmh3Ibgl--WZUopid">Solid Geometry</a></li>
+
+        
+      </ul>
+    </div>
+    
+    <div class="topic">
+      <h2>Biology all topics</h2>
+      <ul>
+        <li><a  class="link"href="https://drive.google.com/drive/folders/1DTNmcg9Z1y0tqxIV_Zm4mLOBPX0l3wOn">ALL TOPICS</a></li>
+
+
+      </ul>
+    </div>
+    <div class="topic">
+      <h2>English Grammar</h2>
+      <ul>
+        <li><a  class="link"href="https://drive.google.com/drive/folders/1LJblFjLTkNmr_KHxmh3Ibgl--WZUopid">Present Simple</a></li>
+<li><a class="link" href="https://drive.google.com/drive/folders/1LJblFjLTkNmr_KHxmh3Ibgl--WZUopid">Past Simple</a></li>
+<li><a class="link" href="https://drive.google.com/drive/folders/1LJblFjLTkNmr_KHxmh3Ibgl--WZUopid">Future Simple</a></li>
+<li><a class="link" href="https://drive.google.com/drive/folders/1LJblFjLTkNmr_KHxmh3Ibgl--WZUopid">Gerund</a></li>
+<li><a  class="link" href="https://drive.google.com/drive/folders/1LJblFjLTkNmr_KHxmh3Ibgl--WZUopid">Present Continuous</a></li>
+<li><a class="link" href="https://drive.google.com/drive/folders/1LJblFjLTkNmr_KHxmh3Ibgl--WZUopid">Past Continuous</a></li>
+<li><a class="link" href="https://drive.google.com/drive/folders/1LJblFjLTkNmr_KHxmh3Ibgl--WZUopid">Future Continuous</a></li>
+<li><a class="link" href="https://drive.google.com/drive/folders/1LJblFjLTkNmr_KHxmh3Ibgl--WZUopid">Present Perfect</a></li>
+<li><a class="link" href="https://drive.google.com/drive/folders/1LJblFjLTkNmr_KHxmh3Ibgl--WZUopid">Past Perfect</a></li>
+<li><a class="link" href="https://drive.google.com/drive/folders/1LJblFjLTkNmr_KHxmh3Ibgl--WZUopid">Second Conditional</a></li>
+
+
+      </ul>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="hello">
+      <button class="world" onclick="document.location='index.html'">Back to home</button>
+      </div>
+    <p>All rights are reserved</p>
+
+  </footer>
+    </div>
+
+  <script>
+    const toggleButton = document.getElementById('themeToggle');
+    const body = document.body;
+    
+    toggleButton.addEventListener('click', () => {
+      body.classList.toggle('dark-theme');
+      if (body.classList.contains('dark-theme')) {
+        toggleButton.textContent = 'Switch to Light Theme';
+      } else {
+        toggleButton.textContent = 'Switch to Dark Theme';
+      }
+    });
+  </script>
+</body>
+</html>

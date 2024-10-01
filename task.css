@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: auto;
+    padding: 0;
+}
+.all{
+    max-width: 1900px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+  
+  header {
+    background-image: url(https://w.wallhaven.cc/full/qz/wallhaven-qzm1or.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    text-align: center;
+    color: white;
+    height: 50vh;
+    
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  flex
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #ff9800;
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+   
+  }
+  
+  button:hover {
+    background-color: #ff5722;
+    transform: scale(1.05);
+  }
+  
+  section.topics {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    gap:40px
+  }
+  
+  .topic {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    text-align: center;
+    font-size: 30px;
+    opacity: 0.8;
+    gap:40px;
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    
+
+  }
+  ul
+  
+  ul li {
+    margin: 10px 0;
+    
+
+  
+  
+  }
+  .link{
+    text-decoration: none;
+    font-family:Prompt;
+    font-weight: 900;
+    color: black;
+  }
+  ul li:hover{
+    background-color: yellow;
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: all 0.1s linear;
+    
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+
+  body.dark-theme {
+    background-color: black;
+    color: #f0f0f0;
+  
+  }
+  
+  body.dark-theme header {
+    background-color: black;
+    filter:drop-shadow(10px 10px 90px);
+    transition:all 1.05s linear;
+  }
+  
+  body.dark-theme .topic {
+    background-color:red;
+    opacity: 1;
+  }
+  
+  body.dark-theme button {
+    background-color: black;
+    color: white;
+    font-size: 20px; 
+    
+   }
+  
+  body.dark-theme button:hover {
+    background-color: #757575;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    section.topics {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .topic {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  }
+  .img{
+    margin-right: 80%;
+   transform: translateY(70px);
+  }
+  .topics{
+    background-image: url(https://w.wallhaven.cc/full/76/wallhaven-766q6o.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+  
+
+.text{
+  font-size: 80px;
+  margin-top: 30px;
+}
+.button{
+  --bg: red;
+--hover-bg: #ff90e8;
+--hover-text: #000;
+color: #fff;
+cursor: pointer;
+border: 1px solid var(--bg);
+border-radius: 30px;
+padding: 0.8em 2em;
+background: var(--bg);
+transition: 0.5s;
+width: 300PX;
+height: 100PX;
+margin-top: 70px;
+}
+.button:hover {
+  color: var(--hover-text);
+  transform: translate(-0.25rem, -0.50rem);
+  background: var(--hover-bg);
+  box-shadow: 0.25rem 0.25rem var(--bg);
+
+  }
+  
+  .button:active {
+  transform: translate(0);
+  box-shadow: none;
+  }
+  
+  .world {
+    --bg: white;
+    --hover-bg:red;
+    --hover-text: #000;
+    color: black;
+    cursor: pointer;
+    border: 1px solid var(--bg);
+    border-radius: 30px;
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+    width: 300PX;
+    height: 100PX;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size:17px;
+    }
+    
+    
+    .world:hover {
+    color: white;
+    transform: translate(1.5rem,1.7rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+    font-size: 24px;
+    }
+    
+    .world:active {
+    transform: translate(0);
+    box-shadow: none;
+    }

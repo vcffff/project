@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  
+}
+
+
+.navbar {
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    padding: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    transition: all 0.1s linear;
+    font-family: Karla;
+}
+
+.navbar ul li a:hover {
+    color: #00C49F; 
+}
+.container{
+    max-width: 1900px;
+    margin: auto;
+    height: 100vw;
+}
+
+
+
+.main{
+    display: flex;
+    gap: 80px;
+    margin-top: 10px;
+    
+}
+.text{
+    font-size: 100px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.down{
+font-size: 100px;
+margin-left: 200px;
+}
+.link{
+    text-decoration: none;
+    font-size: 60px;
+    color: black;
+    }
+.link{
+    margin-left: 200px;
+    font-size:100px;
+
+}
+
+.mai{
+    border: 2px solid #00C49F;
+    border-radius: 10px;
+    transition: all 0,5s linear;
+}
+.mai:hover{
+    border: 5px solid #00C49F;
+
+}
+
+.texti{
+    color: black;
+    font-family: Karla;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 60px;
+}
+
+.img{
+    display: flex;
+    margin-top: 10px;
+    gap:40px;
+    margin-left: 20px;
+
+   
+}
+
+.image{
+    border-radius: 20px;
+    height: 500px;
+}
+.batu{
+    font-size: 60px;
+    color: red;
+    text-align: center;
+}
+.wrapper{
+    margin-top: 20px;
+}
+.wrapper1{
+    display: flex;
+}
+.img2{
+    display: flex;
+    
+}
+.image2{
+    margin-bottom: 10px;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+.gaka{
+    font-size: 60px;
+    text-align: center;
+}
+.team{
+    font-size: 60px;
+    text-align: center;
+}
+.sponsor1{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.src{
+    width: 420px;
+    justify-content: center;
+}
+footer{
+    background-color: yellow;
+    height: 45vh;
+    margin-top: 30px;
+}
+.fs{
+    display: flex;
+    gap: 160px;
+    justify-content: center;
+}
+.sol{
+    margin-top: 60px;
+    cursor: pointer;
+    
+}
+.sol:hover{
+    transform: scale(1.5);
+}
+.ko{
+    font-size: 50px;
+    font-family:Prompt ;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.baka{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Prompt;
+}
